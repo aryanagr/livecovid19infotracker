@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Card from './components/card'
+
 import './App.css';
 
 
