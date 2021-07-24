@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 import './App.css';
+import Time from './Time'
 
 
 
@@ -28,8 +29,11 @@ function App() {
   return (
     <>
     <section>
+
     <h1 className="text-center"><span className="h6">🔴 </span> live</h1>
     <h2 className="text-center">COVID-19 CORONA TRACKER</h2>
+
+
     <div className="row row-cols-1 row-cols-md-3 g-4  ">
     <div className="col d-flex justify-content-center">
       <div className="card w-75 text-white bg-dark mb-1">
@@ -83,10 +87,14 @@ function App() {
           <p classname="card-text display-1">{data.lastupdatedtime}</p>
         </div>
         </div>
+
+
       </div>
       
     </div>
     </section>
+
+    <Time/>
     </>
   );
 }
