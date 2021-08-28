@@ -84,8 +84,8 @@ function App() {
       <div className="card w-75 text-white bg-info mb-1">
       
         <div className="card-body">
-          <p className="card-title h1"><span className="h6">last </span>Update</p>
-          <p className="card-text display-1">{data.lastupdatedtime}</p>
+          <p className="card-title h2"><span className="h6">last </span>Update</p>
+          <p className="card-text h1">{data.lastupdatedtime}</p>
         </div>
         </div>
 
