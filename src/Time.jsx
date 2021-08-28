@@ -12,10 +12,10 @@ const Time =()=>{
      setInterval(updatedatetime,1000);
      setInterval(updatedatetime,1000);
     return(
-    <footer class="page-footer font-small blue">
+    <footer className="page-footer font-small blue">
 
 
-        <div class="footer-copyright text-center py-3">
+        <div className="footer-copyright text-center py-3">
            {cdate} {ctime}  
            </div>
 
